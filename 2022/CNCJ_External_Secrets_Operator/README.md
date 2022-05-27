@@ -1,7 +1,7 @@
-# CNCJ - External_Secrets_Operator - May 2022 
+# CNCJ - External_Secrets_Operator - May 2022: 
     25 May 2022 - Cloud Native Computing Johannesburg May Meetup 
 
-## Abstract 
+## Abstract: 
 Managing secrets in Kubernetes can be a cumbersome job. How do you store and rotate your credentials currently in your project?
 
 With External Secrets Operator (ESO for short) we leverage multi-featured solutions like AWS Secret Manager, Azure Key Vault and Hashicorp Vault to manage your sensitive data declaratively and securely. You end up with native Kubernetes secrets in your cluster, synchronized continuously with your external provider.
@@ -10,7 +10,7 @@ In this presentation, we are going to talk about the origins of ESO and the diff
 
 Presentation: The first half of the talk will be us telling you ESO’s story, and the second half will be a demo of ESO in action.
 
-## Infrastructure
+## Infrastructure:
 
 Within the ```./infra``` directory, there is a collection of Terraform files that create the following resources:
 
@@ -29,6 +29,6 @@ Within the ```./infra``` directory, there is a collection of Terraform files tha
 - vars.tf
 
 
-## Video / Recording
+## Video / Recording:
 
- [![External Secrets Operator: A Cloud Native way to manage your secrets](https://img.youtube.com/vi/phohsHfl55A/0.jpg)](https://www.youtube.com/watch?v=phohsHfl55A)
+[![External Secrets Operator: A Cloud Native way to manage your secrets](https://img.youtube.com/vi/phohsHfl55A/0.jpg)](https://www.youtube.com/watch?v=phohsHfl55A)
